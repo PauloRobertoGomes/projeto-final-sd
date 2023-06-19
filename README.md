@@ -3,11 +3,12 @@
 ### Pré-requisitos
 
 - **Node.js** versão 8 ou superior;
+- **MongoDB** versão 6.0.4 ou superior;
 
 ### Instalação
 
-1. Faça o clone do repositório e no terminal navegue até a pasta;
-2. Instale as dependências do projeto com `npm install`;
+1. Faça o clone do repositório e no terminal navegue até a pasta.
+2. Instale as dependências do projeto com `npm install`.
 3. Rode o servidor de desenvolvimento com `npm run start:dev`.
 4. O _endpoint_ do serviço estará disponível em _http://localhost:8080/api/v1_.
 
