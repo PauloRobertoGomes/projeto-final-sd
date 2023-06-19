@@ -2,7 +2,7 @@
 
 ### Pré-requisitos
 
-- **Node.js** versão 8 ou superior;
+- **Node.js** versão 14.20.1 ou superior;
 - **MongoDB** versão 6.0.4 ou superior;
 
 ### Instalação
