@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const uri = "mongodb://localhost:27017/sd";
+const uri = "mongodb://mongo:27017/sd";
 const port = 8080;
 const app = express();
 const routes = express.Router();

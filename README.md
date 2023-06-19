@@ -4,12 +4,21 @@
 
 - **Node.js** versão 14.20.1 ou superior;
 - **MongoDB** versão 6.0.4 ou superior;
+- **Docker**
 
-### Instalação
+### Instalação para desenvolvimento local
 
 1. Faça o clone do repositório e no terminal navegue até a pasta.
 2. Instale as dependências do projeto com `npm install`.
-3. Rode o servidor de desenvolvimento com `npm run start:dev`.
+3. Substitua, na linha 3, a url de conexão para `mongodb://localhost:27017/sd`.
+4. Rode o servidor de desenvolvimento com `npm run start:dev`.
+5. O _endpoint_ do serviço estará disponível em _http://localhost:8080/api/v1_.
+
+### Instalação para testes usando Docker
+
+1. Faça o clone do repositório e no terminal navegue até a pasta.
+2. Substitua, na linha 3, a url de conexão para `mongodb://mongo:27017/sd`.
+3. Suba os containers da api e do mongodb usando `docker compose up --build`.
 4. O _endpoint_ do serviço estará disponível em _http://localhost:8080/api/v1_.
 
 ### License
