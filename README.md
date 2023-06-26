@@ -4,7 +4,8 @@
 
 - **Node.js** versão 14.20.1 ou superior;
 - **MongoDB** versão 6.0.4 ou superior;
-- **Docker**
+- **Docker** versão 20.20.17 ou superior;
+- **Docker Compose** versão 2.10.2 ou superior;
 
 ### Instalação para desenvolvimento local
 
